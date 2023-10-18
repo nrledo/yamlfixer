@@ -1,0 +1,11 @@
+---
+
+# For use with pre-commit.
+# See usage instructions at https://pre-commit.com
+
+- id: yamlfixer
+  name: yamlfixer
+  description: This hook runs yamlfixer.
+  entry: yamlfixer
+  language: python
+  types: [file, yaml]
